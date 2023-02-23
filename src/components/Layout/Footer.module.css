@@ -1,0 +1,16 @@
+.footerBody {
+    background-color: #8a2b06;
+    color:white;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+   
+}
+
+.text {
+    text-align: center;
+    padding-top: 10px;
+}
