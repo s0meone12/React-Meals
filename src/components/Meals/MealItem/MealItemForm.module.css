@@ -8,9 +8,13 @@
     background-color: #8a2b06;
     border: 1px solid #8a2b06;
     color: white;
-    padding: 0.25rem 2rem;
     border-radius: 20px;
     font-weight: bold;
+  }
+  .mealAddButton{
+    display: flex;
+    align-items: center;
+    padding: 10px 80px;
   }
   
   .form button:hover,

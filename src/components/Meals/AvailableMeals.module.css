@@ -1,7 +1,7 @@
 .meals {
     max-width: 60rem;
-    width: 90%;
     margin: 2rem auto;
+    width: 100%;
     animation: meals-appear 1s ease-out forwards;
     font-weight: bold;
   }
@@ -9,6 +9,11 @@
   .MealsLoading {
     text-align: center;
     font-weight: bold;
+  }
+
+  .mealContainer {
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .errorMsg {
@@ -32,3 +37,9 @@
       transform: translateY(0);
     }
   } 
+
+  @media (max-width: 1000px) {
+    .mealContainer {
+      justify-content: center;
+    }
+  }
